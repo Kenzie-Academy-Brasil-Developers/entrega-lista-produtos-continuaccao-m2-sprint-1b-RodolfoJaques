@@ -13,7 +13,7 @@ const produtos = [
             'Vitamina B6',
             'Vitamina C',
             'Folatos'
-        ] 
+        ]
     },
     {
         id: 2,
@@ -36,8 +36,8 @@ const produtos = [
         nome: 'Maçã',
         preco: '2.00',
         secao: 'Hortifruti',
-        categoria: 'fruta',
-        img: './src/img/maça.png',
+        categoria: 'fruta_maca_maça',
+        img: './src/img/maca.png',
         promocao: true,
         precoPromocao: '1.50',
         componentes: [
@@ -52,7 +52,7 @@ const produtos = [
         nome: 'Pão',
         preco: '4.00',
         secao: 'Panificadora',
-        categoria: 'Pães',
+        categoria: 'Pães_paes_pao',
         img: './src/img/pao.png',
         promocao: true,
         precoPromocao: '2.50',

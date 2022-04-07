@@ -119,12 +119,13 @@ main{
     text-align: left;
 }
 .containerListaProdutos ul li ol li{
-    font-size: 13px;
+    font-size: 10px;
     margin: 7px 0;
 }
 
 /* PREÇO TOTAL */
 .containerPrecoTotal{
+    
     text-align: center;
     margin: 40px 0 30px;
 }
@@ -140,6 +141,10 @@ main{
     width: 450px;
     text-align: center;
     border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column-reverse;
+
+    
 }
 .containerCarrinho img {
     max-width: 100px;
